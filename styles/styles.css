@@ -15,7 +15,7 @@ body {
     background-size: cover;
     background-position: center center;
     position: fixed;
-    z-index: -1;
+    z-index: -1; 
 }
 #message { 
     font-family: "Montserrat", sans-serif;
@@ -29,23 +29,6 @@ body {
         0 3px 4px rgba(0, 0, 0, 0.2);        /* Bottom-right dark shadow */
 }
 
-@media screen and (max-width: 900px) {
-body, .home-grid {
-    display: flex;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-} 
-img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-} 
-#message {
-    font-size: 4em;
-    margin: -30vh; 
-}   
-} 
+
 
     
